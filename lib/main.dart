@@ -36,6 +36,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return MaterialApp(
         color: Colors.yellow,
         home: SafeArea(
+          bottom: false,
+          top: false,
           child: DefaultTabController(
             length: 3,
             child: new Scaffold(
